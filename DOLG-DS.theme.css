@@ -6,7 +6,7 @@
  * @authorId 278543574059057154
  * @invite X3Ft8b87jK
  * @website https://vk.com/skorzelcon
- * @updateUrl https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme
+ * @updateUrl https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme.css
 
  */
 
@@ -7287,7 +7287,7 @@ html .typingindicator-folder {
 /* ~~~~		19.		UPDATENOTICE					~~~~ */
 
 html:only-child > head + body div.app-1BipOi > div.app-2CXKsg::before {
-	content: "Your Version of   BasicBackground   by DevilBro is outdated. Please download the newest Version:	https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme" !important;
+	content: "Your Version of   BasicBackground   by DevilBro is outdated. Please download the newest Version:	https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme.css" !important;
 	display: var(--version1_0_5, block) !important;
 	background-color: #4a90e2 !important;
 	box-shadow: 0 1px 5px 0 rgba(var(--transparencycolor), .3) !important;
