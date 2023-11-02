@@ -2,11 +2,11 @@
  * @name DOLG-DS
  * @description Кастомный дискод группировки DOLG. 
  * @author Skor
- * @version 1.0
+ * @version 1.1
  * @authorId 278543574059057154
  * @invite X3Ft8b87jK
  * @website https://vk.com/skorzelcon
- * @updateUrl https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme.css
+ * @updateUrl https://raw.githubusercontent.com/Skordima/DOLG-DS/main/DOLG-DS.theme
 
  */
 
@@ -52,7 +52,7 @@
 	--popoutsize:					var(--backgroundsize);
 	--popoutblur:					var(--backgroundblur);
 	
-	--backdrop:						rgba(0,0,0,0.85);
+	--backdrop:						rgba(83, 74, 74, 0.85);
 	--backdropposition:				center;
 	--backdropsize:					cover;
 	--backdropblur:					unset;
@@ -6580,11 +6580,6 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 
 /* ----		15.7.	SCROLLBARS						---- */
 
-::-webkit-scrollbar,
-#app-mount ::-webkit-scrollbar {
-	width: 8px;
-	height: 8px;
-}
 #app-mount .scroller-3vODG7::-webkit-scrollbar {
 	width: 6px;
 	height: 6px;
@@ -6607,7 +6602,6 @@ img[src="/assets/cef02719c12d8aaf38894c16dca7fbe6.svg"] {	/* rolesettings			addr
 ::-webkit-scrollbar-thumb,
 #app-mount ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	border: none;
 	background-color: rgb(var(--accentcolor)) !important;
 }
 .none-1rXy4P::-webkit-scrollbar-corner,
